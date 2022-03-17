@@ -1,9 +1,7 @@
 import React from 'react'
 
 function Schedule() {
-  return (
-    <div>Schedule</div>
-  )
+  return <div className="page">Schedule</div>;
 }
 
 export default Schedule

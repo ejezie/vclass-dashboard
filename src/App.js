@@ -2,7 +2,6 @@ import "./app.scss";
 
 import Sidebar from "./components/Sidebar";
 import Header from "./components/Header";
-import Background from "./components/Background";
 import Dashboard from "./pages/Dashboard";
 import Profile from "./pages/Profile";
 import Courses from "./pages/Courses";
@@ -19,7 +18,7 @@ function App() {
       <Router>
         <Header />
         <Sidebar />
-        <Background />
+        {/* <Background /> */}
         <Routes>
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/" element={<Profile />} />
