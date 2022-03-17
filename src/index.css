@@ -9,4 +9,6 @@
 
 body{
   font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+  background: #faf9f9;
 }
