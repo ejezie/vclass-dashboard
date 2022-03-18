@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 import Nav from "../components/Nav";
 import Form from "../components/Form";
+import FormStudy from "../components/FormStudy";
+import FormList from "../components/FormList";
 import Test from "../components/Test";
 import Lecture from "../components/Lecture";
 
@@ -38,9 +40,19 @@ function Profile() {
         <Form
           option={active === "test" ? "Past test" : "Past lecture"}
           btnAction={btnAction}
-          btnText={
-            active === "test" ? "Schedule new test" : "Schedule lecture"
-          }
+          btnText={active === "test" ? "Schedule new test" : "Schedule lecture"}
+        />
+      )}
+      {active === "study" && (
+        <FormStudy
+          btnAction={btnAction}
+          btnText={active === "Search material"}
+        />
+      )}
+      {active === "list" && (
+        <FormList
+          btnAction={btnAction}
+          btnText={active === "Search material"}
         />
       )}
       {active === "test" && [<Test />, <Test />]}

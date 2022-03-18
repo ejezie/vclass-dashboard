@@ -11,9 +11,11 @@
     justify-content: space-around;
     .active {
       border-bottom: 1px solid #2697fe;
+      color: #2697fe !important;
     }
     .not-active {
       border-bottom: 1px solid transparent;
+      color: #000000;
     }
     img {
       width: 1.2rem;

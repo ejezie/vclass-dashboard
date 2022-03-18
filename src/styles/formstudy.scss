@@ -1,0 +1,18 @@
+.formstudy {
+  width: 90%;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .border{
+      width: 86vw;
+       border-bottom: 1px solid #ececec;
+       margin-top: 1.5rem;
+  }
+}

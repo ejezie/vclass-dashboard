@@ -1,0 +1,50 @@
+.filter {
+  width: 80%;
+  display: flex;
+  .filter-form {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    label {
+      // font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    .input-wrap {
+      width: 80%;
+      display: flex;
+      align-items: center;
+      input {
+        width: 100%;
+        margin-bottom: 1rem;
+        height: 2.4rem;
+        border: 1px solid #d3d3d3;
+        border-radius: 4px;
+        margin-right: 2rem;
+        padding: 0 1rem;
+        font-size: 1.2rem;
+      }
+      img {
+        width: 1.1rem;
+        height: 1.1rem;
+        object-fit: contain;
+        margin-bottom: 1rem;
+        cursor: pointer;
+      }
+    }
+    .form-btn {
+      padding: 0.6rem;
+      min-width: 6rem;
+      background: #f7f7f7;
+      border: 1px solid #c2c2c2;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.5s;
+      letter-spacing: 1.1px;
+      &:hover{
+          background-color: white;
+      }
+    }
+  }
+}
