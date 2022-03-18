@@ -10,9 +10,49 @@
     justify-content: space-between;
     width: 100%;
   }
-  .border{
-      width: 86vw;
-       border-bottom: 1px solid #ececec;
-       margin-top: 1.5rem;
+  .border {
+    width: 86vw;
+    border-bottom: 1px solid #ececec;
+    padding: 1rem 0;
+  }
+  .select-wrap {
+    width: 100%;
+    margin: 1.2rem 0;
+  }
+  .file-wrap {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 3rem;
+    .wrap {
+      display: flex;
+      justify-content: flex-start;
+      width: 10rem;
+      img {
+        margin-right: 1.2rem;
+        cursor: pointer;
+      }
+      .text {
+        margin-right: 1.2rem;
+        font-size: 0.9rem;
+      }
+      .green {
+        color: #2ed903;
+      }
+    }
+    .text-wrap {
+      max-width: 700px;
+      line-height: 1.6;
+      border: 1px solid #d8d8d8;
+      border-radius: 5px;
+      padding: 1rem 1.5rem;
+      position: relative;
+      img{
+          position: absolute;
+          top: 0.5rem;
+          right: 0.7rem;
+          cursor: pointer;
+      }
+    }
   }
 }

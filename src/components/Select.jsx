@@ -7,7 +7,7 @@ function Select({option}) {
   return (
     <form action="" className="form-wrap">
         <div className="text">Select</div>
-        <img src={line} alt="line" />
+        <img className='line' src={line} alt="line" />
         <div className="select-wrap">
           <img src={select} alt="select-icon" />
           <select name="" id="">
