@@ -34,13 +34,15 @@ function Profile() {
         clickList={clickList}
         active={active}
       />
-      { (active==="test" || active ==="lecture") &&
+      {(active === "test" || active === "lecture") && (
         <Form
-          option={"Past test"}
+          option={active === "test" ? "Past test" : "Past lecture"}
           btnAction={btnAction}
-          btnText={"Schedule new test"}
+          btnText={
+            active === "test" ? "Schedule new test" : "Schedule lecture"
+          }
         />
-      }
+      )}
       {active === "test" && [<Test />, <Test />]}
       {active === "lecture" && [<Lecture />, <Lecture />]}
     </div>

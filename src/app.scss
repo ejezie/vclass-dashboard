@@ -5,6 +5,8 @@
 @import "./styles/form.scss";
 @import "./styles/test.scss";
 @import "./styles/lecture.scss";
+@import "./styles/button.scss";
+@import "./styles/select.scss";
 
 .app{
     position: relative;
@@ -24,4 +26,5 @@
   align-items: center;
   flex-direction: column;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
