@@ -3,6 +3,7 @@
 @import "./styles/nav.scss";
 @import "./styles/profile.scss";
 @import "./styles/form.scss";
+@import "./styles/contentone.scss";
 
 .app{
     position: relative;
@@ -19,4 +20,7 @@
   bottom: 6rem;
   overflow-y: scroll;
   z-index: -1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }

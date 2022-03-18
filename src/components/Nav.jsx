@@ -9,13 +9,15 @@ function Nav() {
 
   return (
     <div className="nav">
-      {/* <NavLink to={() => navigate(-1)}> */}
-      <img src={back} alt="icon" />
-      {/* </NavLink> */}
-      <NavLink to={"/"}>Test</NavLink>
-      <NavLink to={"/profile/lecture"}>Lecture</NavLink>
-      <NavLink to={"profile/lecture"}>Study material</NavLink>
-      <NavLink to={"profile/lecture"}>List of student and teacher</NavLink>
+      <div className="nav-wrap">
+        {/* <NavLink to={() => navigate(-1)}> */}
+        <img src={back} alt="icon" />
+        {/* </NavLink> */}
+        <NavLink to={"/"}>Test</NavLink>
+        <NavLink to={"/profile/lecture"}>Lecture</NavLink>
+        <NavLink to={"profile/lecture"}>Study material</NavLink>
+        <NavLink to={"profile/lecture"}>List of student and teacher</NavLink>
+      </div>
     </div>
   );
 }

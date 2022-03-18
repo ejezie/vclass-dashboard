@@ -1,3 +1,57 @@
-.form{
-    
+.form {
+  width: 97%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: #c2c2c2 solid 1px;
+  padding-top: 2rem;
+  .form-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 22%;
+    margin-left: 2rem;
+    .select-wrap {
+      position: relative;
+      width: 6.5rem;
+      cursor: pointer;
+      img {
+        position: absolute;
+        right: 10%;
+        top: 42%;
+        width: 0.7rem;
+      }
+      select {
+        padding: 0.6rem;
+        background: #f1f1f1;
+        border: 1px solid #c2c2c2;
+        width: 6.5rem;
+        border-radius: 6px;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        outline: none;
+        height: 100%;
+        cursor: pointer;
+         transition: all 0.5s;
+      &:hover{
+          background-color: white;
+      }
+      }
+    }
+  }
+  .btn{
+      width: 10rem;
+      border: solid 1px #2697FE;
+      padding: 0.6rem;
+      border-radius: 6px;
+      color: #2697FE;
+      background-color: white;
+      transition: all 0.5s;
+      margin-right: 2rem;
+      cursor: pointer;
+      &:hover{
+          background-color: #f1f1f1;
+      }
+  }
 }
