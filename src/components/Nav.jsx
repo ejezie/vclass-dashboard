@@ -14,9 +14,9 @@ function Nav() {
         <img src={back} alt="icon" />
         {/* </NavLink> */}
         <NavLink to={"/"}>Test</NavLink>
-        <NavLink to={"/profile/lecture"}>Lecture</NavLink>
-        <NavLink to={"profile/lecture"}>Study material</NavLink>
-        <NavLink to={"profile/lecture"}>List of student and teacher</NavLink>
+        <NavLink to={"/lecture"}>Lecture</NavLink>
+        <NavLink to={"profile/stack"}>Study material</NavLink>
+        <NavLink to={"profile/room"}>List of student and teacher</NavLink>
       </div>
     </div>
   );

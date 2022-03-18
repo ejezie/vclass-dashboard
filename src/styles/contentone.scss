@@ -1,3 +1,45 @@
-.contentone{
-    
+.contentone {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  .content-wrap {
+    width: 92%;
+    border: 1px solid #eeeeee;
+    padding: 1rem 0 2rem 1rem;
+    border-radius: 10px;
+    .textone {
+      font-size: 1.1rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+    }
+    .texttwo {
+      font-size: 0.9rem;
+      max-width: 900px;
+      margin-bottom: 1.2rem;
+      line-height: 1.7;
+    }
+    .text-wrap {
+      display: flex;
+      align-items: center;
+      .textthree {
+        font-size: 0.9rem;
+        color: #9c9c9c;
+        margin-right: 0.5rem;
+      }
+      .textfour {
+        font-size: 0.9rem;
+        color: #9c9c9c;
+        margin-right: 0.5rem;
+      }
+      .enddate {
+        font-size: 0.9rem;
+        margin-right: 0.5rem;
+      }
+      .endtime {
+        font-size: 0.9rem;
+      }
+    }
+  }
 }

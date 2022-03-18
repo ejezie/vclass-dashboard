@@ -2,6 +2,7 @@ import React from 'react'
 
 import Nav from '../components/Nav'
 import Form from '../components/Form'
+import Contentone from '../components/Contentone'
 
 
 function Profile() {
@@ -18,6 +19,8 @@ function Profile() {
         btnAction={btnAction}
         btnText={"Schedule new test"}
       />
+      <Contentone/>
+      <Contentone/>
     </div>
   );
 }

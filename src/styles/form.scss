@@ -5,6 +5,7 @@
   justify-content: space-between;
   border-top: #c2c2c2 solid 1px;
   padding-top: 2rem;
+  margin-bottom: 3rem;
   .form-wrap {
     display: flex;
     align-items: center;
@@ -13,7 +14,7 @@
     margin-left: 2rem;
     .select-wrap {
       position: relative;
-      width: 6.5rem;
+      width: 8rem;
       cursor: pointer;
       img {
         position: absolute;
@@ -25,7 +26,7 @@
         padding: 0.6rem;
         background: #f1f1f1;
         border: 1px solid #c2c2c2;
-        width: 6.5rem;
+        width: 8rem;
         border-radius: 6px;
         -moz-appearance: none;
         -webkit-appearance: none;

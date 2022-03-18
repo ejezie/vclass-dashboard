@@ -1,0 +1,24 @@
+.contenttwo {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  .content-wrap{
+    width: 94%;
+    .text-wrap{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        .wrap{
+            .txt1{
+                
+            }
+            .txt2{
+
+            }
+            
+        }
+    }
+  }
+}
