@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Contentone() {
+function Test() {
   return (
-    <div className="contentone">
+    <div className="test">
       <div className="content-wrap">
         <div className="textone">Typography test</div>
         <div className="texttwo">
@@ -21,4 +21,4 @@ function Contentone() {
   );
 }
 
-export default Contentone
+export default Test

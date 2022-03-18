@@ -1,7 +1,9 @@
 .nav {
-  width: 100%;
+  width: 97%;
   padding: 1rem 0;
   height: 5rem;
+  border-bottom: #c2c2c2 solid 1px;
+
   .nav-wrap {
     width: 70%;
     height: 100%;
@@ -11,13 +13,16 @@
     .active {
       border-bottom: 1px solid #2697fe;
     }
+    .not-active {
+      border-bottom: 1px solid transparent;
+    }
     img {
       width: 1.2rem;
       height: 1.2rem;
       object-fit: contain;
     }
-    a {
-      text-decoration: none;
+    .links {
+      cursor: pointer;
       font-weight: 500;
       font-size: 18px;
       line-height: 38px;

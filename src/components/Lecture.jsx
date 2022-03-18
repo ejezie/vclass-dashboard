@@ -1,8 +1,9 @@
-import React from 'react'
+import React from "react";
 
-function Contenttwo() {
+function Lecture() {
+
   return (
-    <div className="contenttwo">
+    <div className="lecture">
       <div className="content-wrap">
         <div className="text-wrap">
           <div className="wrap">
@@ -24,4 +25,4 @@ function Contenttwo() {
   );
 }
 
-export default Contenttwo
+export default Lecture;

@@ -9,7 +9,6 @@ import Stack from "./pages/Stack";
 import Room from "./pages/Room";
 import Schedule from "./pages/Schedule";
 import Settings from "./pages/Settings";
-import Lecture from "./pages/Lecture";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -22,7 +21,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Profile />} />
           <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/lecture" element={<Lecture />} />
+          {/* <Route path="/lecture" element={<Lecture />} /> */}
           <Route path="/courses" element={<Courses />} />
           <Route path="/stack" element={<Stack />} />
           <Route path="/room" element={<Room />} />
