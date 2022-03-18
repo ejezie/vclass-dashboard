@@ -4,29 +4,36 @@
   align-items: center;
   justify-content: center;
   margin-top: 2rem;
-  .content-wrap{
-    width: 94%;
-    .text-wrap{
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        .wrap{
-            .txt1{
-                color: #9C9C9C;
-                font-size: 0.9rem;
-            }
-            .txt2{
-                color: #2697FE;
-                font-size: 1.15rem;
-            }
-            .txtone{
-                
-            }
-            .txttwo{
 
-            }
-            
+  .content-wrap {
+    width: 94%;
+    .text-wrap {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid #EBEBEB;
+      
+      .wrap {
+        .txt1 {
+          color: #9c9c9c;
+          font-size: 0.8rem;
         }
+        .txt2 {
+          color: #2697fe;
+          font-size: 1.15rem;
+        }
+        .txtone {
+          color: #9c9c9c;
+          font-size: 0.7rem;
+        }
+      }
+      .txt {
+        color: #2697fe;
+        font-size: 0.8rem;
+        cursor: pointer;
+      }
     }
   }
 }
